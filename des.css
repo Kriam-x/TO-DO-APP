@@ -1,0 +1,107 @@
+body {
+    background-color: #1a1a1a;
+    min-height: 100vh;
+    min-width: 100vh;
+    padding: 0;
+    padding-top: 0.001;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1:first-child {
+    margin-top: 0;
+    font-size: 42px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    /* border: 2px solid green; */
+    margin: 10px;
+    padding: 4px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 35px;
+    /* border: 4px solid wheat; */
+}
+
+.input_con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    /* border: 3px solid rebeccapurple; */
+}
+
+#input_btn {
+    display: flex;
+    font-size: medium;
+    color: white;
+    border: 4px solid;
+    border-color: rgb(169, 65, 169);
+    border-radius: 8px;
+    margin: 9px;
+    padding: 9px;
+}
+
+#input_btn:hover {
+    border-color: purple;
+    color: black;
+}
+
+#to_do_input {
+    background: transparent;
+    font-size: medium;
+    border-radius: 8px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 13px;
+    margin: 8px;
+}
+
+/* #to_do_input:focus{
+    outline: 1px;
+} */
+#to_do_input:hover {
+    background-color: rgb(104, 100, 100);
+
+
+}
+
+#to-do_list {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    border-radius: 31px;
+    border: 3px solid white;
+    padding: 24px;
+    margin: 15px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(84, 81, 81);
+    border-radius: 7px;
+    list-style: decimal;
+    padding-left: 40px;
+    font-size: 26px;
+    margin: 10px;
+    padding: 10px;
+}
+
+li > button{
+    padding: 5px;
+    margin: 5px;
+    margin-left: 21px;
+    background-color:rgba(160, 26, 53, 0.689);
+    border-radius: 6px;
+}
